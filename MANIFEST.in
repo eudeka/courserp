@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include courserp *.css
+recursive-include courserp *.csv
+recursive-include courserp *.html
+recursive-include courserp *.ico
+recursive-include courserp *.js
+recursive-include courserp *.json
+recursive-include courserp *.md
+recursive-include courserp *.png
+recursive-include courserp *.py
+recursive-include courserp *.svg
+recursive-include courserp *.txt
+recursive-exclude courserp *.pyc
